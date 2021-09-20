@@ -2,7 +2,7 @@
 
  Object recognition performed with raspberry pi 3 B+ / pi 4 B , using a raspberry camera and a mobilenet .h5 model.
 
- This python script takes as input the .h5 file and loads the Mobilenet model exploiting the keras API. The camera preview is showed on the screen, and each acquired frame is fed to the model. Then the output probabilities and the inference time are displayed on the preview through an overlay.
+ This python script takes as input the .h5 file and loads the Mobilenet model exploiting the keras API. The camera preview is shown on the screen, and each acquired frame is fed to the model. Then the output probabilities and the inference time are displayed on the preview through an overlay.
 
  This script was tested on raspberry pi 3 B+ and raspberry pi 4 model B, using a Raspberry Pi Official Camera Module V2 8Mp.
 
